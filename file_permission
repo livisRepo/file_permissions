@@ -1,0 +1,6 @@
+# Create a file with .txt extension (/home/demo.txt)
+cd /home
+touch demo.txt
+
+#Change the permission set of that file, so that any user can read it, group can read/write & owner can read/write/execute it
+chmod 764 demo.txt
